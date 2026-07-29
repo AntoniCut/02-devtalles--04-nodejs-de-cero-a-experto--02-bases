@@ -1,0 +1,39 @@
+{
+    "name": "02-bases",
+    "version": "1.0.0",
+    "description": "Bases de NodeJS - Fundamentos de NodeJS",
+    "main": "app.js",
+
+    "scripts": {
+        "start": "nodemon ./src/app.js",
+        "dev:template": "nodemon ./src/javascript-foundation/01-app-template.js",
+        "dev:02-app-desestructuring": "nodemon ./src/javascript-foundation/02-app-destructuring.js",
+        "dev:03-app-callbacks": "nodemon ./src/javascript-foundation/03-app-callbacks.js",
+        "dev:04-app-arrow-functions": "nodemon ./src/javascript-foundation/04-app-arrow-functions.js",
+        "dev:05-app-factory": "nodemon ./src/javascript-foundation/05-app-factory.js",
+        "dev:06-promises": "nodemon ./src/javascript-foundation/06-app-promises.js",
+        "dev:07-async-await": "nodemon ./src/javascript-foundation/07-app-async-await.js",
+        "dev:08-app-fetch-api": "nodemon ./src/javascript-foundation/08-app-fetch-api.js",
+        "dev:09-app-logger": "nodemon ./src/javascript-foundation/09-app-logger.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "bases",
+        "nodejs",
+        "javascript",
+        "typescript",
+        "backend"
+    ],
+    "author": "AntonyDev",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^25.0.3",
+        "nodemon": "^3.1.11"
+    },
+    "dependencies": {
+        "axios": "^1.13.2",
+        "get-age": "^1.0.1",
+        "uuid": "^13.0.0",
+        "winston": "^3.19.0"
+    }
+}
