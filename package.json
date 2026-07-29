@@ -15,6 +15,7 @@
         "dev:07-async-await": "nodemon ./src/javascript-foundation/07-app-async-await.js",
         "dev:08-app-fetch-api": "nodemon ./src/javascript-foundation/08-app-fetch-api.js",
         "dev:09-app-logger": "nodemon ./src/javascript-foundation/09-app-logger.js",
+        "dev:10-app-heroes": "nodemon ./src/javascript-foundation/10-app-heroes.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [

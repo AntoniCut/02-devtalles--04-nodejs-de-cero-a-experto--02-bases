@@ -75,4 +75,17 @@
  * @property {(message: string) => void} log - Registra un mensaje informativo.
  * @property {(message: string) => void} error - Registra un mensaje de error.
  */
+
+
+
+/**
+ * ----------------------
+ * -----  `Hero`  -----
+ * ----------------------
+ * - Definimos un tipo de dato `Hero` que representa un héroe.
+ * @typedef {Object} Hero
+ * @property {number} id - Identificador único del héroe.
+ * @property {string} name - Nombre del héroe.
+ * @property {string} owner - Propietario o universo del héroe (Marvel, DC, etc.).
+ */
     
